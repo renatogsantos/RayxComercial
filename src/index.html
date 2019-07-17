@@ -194,7 +194,7 @@
   <!--cadastro-->
   <div class="container-fluid hero text-light pt-5 pb-5">
     <div class="container">
-      <div class="row">
+      <div class="row reveal">
         <div class="col-lg-3 p-5">
           <img src="assets/icons/login.svg" width="100%" height="100%" alt="celular">
         </div>
@@ -244,7 +244,6 @@
     </div>
     <a class="btn btn-outline-light reveal" href="contrato.html" role="button">Candidatar-se!</a>
   </div>
-
   <!--blocks-->
 
 
@@ -340,11 +339,13 @@
 
   <!--Quem somos-->
   <div class="container-fluid text-center p-5 hero" id="about">
-    <div class="container pt-5 pb-5 reveal">
-      <img src="assets/icons/presentation.svg" alt="networking" style="width:15vh;">
-      <h2> QUEM SOMOS?</h2>
-      <hr>
-      <h4>CONHEÇA A MARCA MAIS CONCEITUADA DO MERCADO DE ACESSÓRIOS AUTOMOTIVOS!</h4>
+    <div class="container pt-5 pb-5">
+      <div class="reveal">
+        <img src="assets/icons/presentation.svg" alt="networking" style="width:15vh;">
+        <h2> QUEM SOMOS?</h2>
+        <h4>CONHEÇA A MARCA MAIS CONCEITUADA DO MERCADO DE ACESSÓRIOS AUTOMOTIVOS!</h4>
+        <hr>
+      </div>
     </div>
   </div>
   <!--Quem somos-->
@@ -352,22 +353,22 @@
   <!--about-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 col-sm-12 col-lg-4 pt-5 pb-5 hero7 reveal">
-        <h2>SOBRE NÓS!</h2>
-        <div class="divisor"></div>
-        <hr>
-        <p>Entre em contato conosco e tire suas dúvidas.</p>
-        <hr>
-        <h6><i class="em em-iphone"></i> Tel.: (11) 3227-2538 / 2601-4319</h6>
-        <hr>
-        <h6><i class="em em-mailbox_with_mail"></i> E-mail: rayx.vendas@gmail.com</h6>
-        <hr>
-        <h6><i class="em em-stuck_out_tongue_closed_eyes"></i> Rayx Comercial Ltda<sup>®</sup></h6>
-        <hr>
-        <h6><i class="em em-clock9"></i> Atendimento de Segunda a Sexta das 8:00hrs às 17:00hrs.</h6>
-        <a title="Falar com Renato G. Santos - Designer & WebDeveloper" class="btn btn-outline-success"
-          href="https://api.whatsapp.com/send?phone=5511963721526&text=Ol%C3%A1%20Renato,%20pode%20me%20ajudar?"
-          target="_blank" role="button"><i class="fab fa-whatsapp"></i> Suporte Rayx Comercial</a>
+      <div class="col-md-12 col-sm-12 col-lg-4 pt-5 pb-5 hero7">
+        <div class="reveal">
+          <h2>SOBRE NÓS!</h2>
+          <div class="divisor"></div>
+          <hr>
+          <p>Entre em contato conosco e tire suas dúvidas.</p>
+          <hr>
+          <h6><i class="em em-iphone"></i> Tel.: (11) 3227-2538 / 2601-4319</h6>
+          <hr>
+          <h6><i class="em em-mailbox_with_mail"></i> E-mail: rayx.vendas@gmail.com</h6>
+          <hr>
+          <h6><i class="em em-stuck_out_tongue_closed_eyes"></i> Rayx Comercial Ltda<sup>®</sup></h6>
+          <hr>
+          <h6><i class="em em-clock9"></i> Atendimento de Segunda a Sexta das 8:00hrs às 17:00hrs.</h6>
+          <a title="Falar com Renato G. Santos - Designer & WebDeveloper" class="btn btn-outline-success" href="https://api.whatsapp.com/send?phone=5511963721526&text=Ol%C3%A1%20Renato,%20pode%20me%20ajudar?" target="_blank" role="button"><i class="fab fa-whatsapp"></i> Suporte Rayx Comercial</a>
+        </div>
       </div>
       <div class="col-md-12 col-sm-12 col-lg-8 pt-5 pb-5 reveal">
         <h2><i class="fas fa-check"></i> RAYX COMERCIAL</h2>
@@ -757,7 +758,12 @@
 
   <script>
     ScrollReveal().reveal('.reveal', {
-      delay: 600
+      delay: 600,
+      distance   : '80px',
+      easing     : 'ease-out',
+      origin     : 'bottom',
+      reset      : true,
+      scale      : 1
     })
     ScrollReveal().reveal('.reveal2', {
       delay: 600

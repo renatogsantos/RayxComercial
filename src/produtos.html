@@ -1708,12 +1708,20 @@
     </div>
   </div>
   <!--Footer-->
-
-
+  
   <script>
-    ScrollReveal().reveal('.reveal', { delay: 600 })
-    ScrollReveal().reveal('.reveal2', { delay: 800 })
-	</script>
+    ScrollReveal().reveal('.reveal', {
+      delay: 600,
+      distance   : '80px',
+      easing     : 'ease-out',
+      origin     : 'bottom',
+      reset      : true,
+      scale      : 1
+    })
+    ScrollReveal().reveal('.reveal2', {
+      delay: 600
+    })
+  </script>
    
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
