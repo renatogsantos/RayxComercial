@@ -16,6 +16,12 @@
   <link rel="stylesheet" href="scss/style.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal@4"></script>
+  <script>
+    ScrollReveal({
+      duration: 800
+    })
+  </script>
 </head>
 <body>  
   
@@ -89,7 +95,7 @@
   
   <!--content-->
   <div class="container-fluid pt-5 pb-5" id="top">
-    <div class="container pt-5">
+    <div class="container pt-5 reveal">
       <h1>GARANTIA</h1>
       <div class="divisor"></div>
       <h3>CONFIRA AGORA TODOS OS PROCEDIMENTOS PARA SOLICITAR A GARANTIA COM A RAYX COMERCIAL!</h3>
@@ -102,7 +108,7 @@
   
 
   <div class="container-fluid hero7 text-center p-3">
-    <div class="container">
+    <div class="container reveal">
       <h3><i class="far fa-handshake"></i> MERCADO LIVRE</h3>
       <small>Informações para consumidor final</small>
       <hr>
@@ -121,7 +127,7 @@
   
   <!--Info-->
   <div class="container-fluid hero pt-5 pb-5">
-    <div class="container">
+    <div class="container reveal">
       <!--alerta de aviso-->
         <div class="alert bg-danger fade show shadow" role="alert">
           <strong>IMPORTANTE:</strong> As garantias serão avaliadas apenas nas condições do nosso termo de garantia, e apenas para representantes e distribuidores.
@@ -207,6 +213,24 @@
   </div>
   <!--Footer-->
 
+  <script>
+    ScrollReveal().reveal('.reveal', {
+      delay: 600,
+      distance   : '80px',
+      easing     : 'ease-out',
+      origin     : 'bottom',
+      reset      : true,
+      scale      : 1
+    });
+    ScrollReveal().reveal('.reveal2', {
+      delay: 10000,
+      distance   : '80px',
+      easing     : 'ease-out',
+      origin     : 'bottom',
+      reset      : true,
+      scale      : 1
+    });
+  </script>
 
   <script>setTimeout(function(){ alert("As garantias serão avaliadas apenas nas condições do nosso termo de garantia, e apenas para representantes e distribuidores")}, 5000);</script>
   <!-- Optional JavaScript -->
