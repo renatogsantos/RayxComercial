@@ -61,11 +61,11 @@ li {
   border-radius: 10px;
   transition: all 600ms ease;
 }
-.hover-border:hover:after{
+.hover-border:hover:after {
   left: 0%;
   width: 100%;
 }
-.hover-border-2::after{
+.hover-border-2::after {
   content: ' ';
   width: 0%;
   height: 3px;
@@ -75,19 +75,20 @@ li {
   border-radius: 10px;
   transition: all 600ms ease;
 }
-.hover-border-2:hover:after{
+.hover-border-2:hover:after {
   left: 0%;
   width: 100%;
 }
-.menu-rayx{
+.menu-rayx {
   font-weight: 500;
 }
 .menu-rayx-2{
   padding:10px 10px;
   color:white;
-}.menu-rayx-2:hover{
+}
+.menu-rayx-2:hover {
   color: white;
-  text-decoration: none;
+  cursor: pointer;
 }
 .btn {
   font-weight: 300;
@@ -406,9 +407,24 @@ video {
   text-decoration: none;
   color: white;
 }
-::-webkit-scrollbar { 
-  display: none; 
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
 }
+/* Track */
+::-webkit-scrollbar-track {
+  background:black;
+} 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff000;
+  border-radius:3px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:grey;
+}
+
 #typed{
   color:#00ff22;
   font-weight:bold;

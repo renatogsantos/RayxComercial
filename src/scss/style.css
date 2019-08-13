@@ -10674,7 +10674,7 @@ li {
 
 .menu-rayx-2:hover {
   color: white;
-  text-decoration: none;
+  cursor: pointer;
 }
 
 .btn {
@@ -11035,8 +11035,25 @@ video {
   color: white;
 }
 
+/* width */
 ::-webkit-scrollbar {
-  display: none;
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff000;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
 }
 
 #typed {
