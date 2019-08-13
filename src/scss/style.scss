@@ -44,6 +44,9 @@ span{
 a{
   position: relative;
 }
+li {
+  font-weight: 400;
+}
 .title {
   font-size: 8vh;
 }
@@ -62,11 +65,29 @@ a{
   left: 0%;
   width: 100%;
 }
-li {
-  font-weight: 400;
+.hover-border-2::after{
+  content: ' ';
+  width: 0%;
+  height: 3px;
+  background:#fff000;
+  position: absolute;
+  top: 0%; left: 50%;
+  border-radius: 10px;
+  transition: all 600ms ease;
+}
+.hover-border-2:hover:after{
+  left: 0%;
+  width: 100%;
 }
 .menu-rayx{
   font-weight: 500;
+}
+.menu-rayx-2{
+  padding:10px 10px;
+  color:white;
+}.menu-rayx-2:hover{
+  color: white;
+  text-decoration: none;
 }
 .btn {
   font-weight: 300;
