@@ -10585,6 +10585,7 @@ hr {
 
 h1 {
   font-size: 3.5em;
+  font-weight: 800;
 }
 
 h2 {
@@ -10594,6 +10595,7 @@ h2 {
 
 h3 {
   font-size: 2em;
+  font-weight: 600;
 }
 
 h4 {
@@ -10601,7 +10603,6 @@ h4 {
 }
 
 h6 {
-  font-family: Poppins;
   font-size: 1em;
 }
 
