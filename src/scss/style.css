@@ -10775,8 +10775,8 @@ ul {
 }
 
 .hero3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url(../assets/wall-mercedes.png);
-  background: linear-gradient(rgba(0, 0, 0, 0.7)), url(../assets/wall-mercedes.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url(../assets/wallhome.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.7)), url(../assets/wallhome.png);
   height: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -10843,7 +10843,7 @@ ul {
 }
 
 .wall {
-  background-image: url(../assets/wallpaper.jpg);
+  background-image: url(../assets/wallpaper.png);
   height: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -10853,8 +10853,8 @@ ul {
 }
 
 .wallhome {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../assets/wall-mercedes.png);
-  background: linear-gradient(rgba(0, 0, 0, 0.5)), url(../assets/wall-mercedes.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../assets/wallhome.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url(../assets/wallhome.png);
   height: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
