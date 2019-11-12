@@ -94,11 +94,6 @@ li {
 .btn {
   font-weight: 300;
 }
-.home{
-  padding: 20% 0;
-  color: #fff;
-  font-family: Poppins;
-}
 .descricao h1{
   font-size: 2em;
   font-weight: 800;
@@ -236,8 +231,6 @@ ul {
 }
 .wallhome {
   background: linear-gradient(rgba(0, 0, 0, .5)), url(../assets/wallhome.png);
-  height: auto;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
