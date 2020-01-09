@@ -10,6 +10,11 @@
   <meta name="description" content="Rayx Comercial - Conheça a marca mais conceituada do mercado de acessórios automotivos!">
   <meta name="keywords" content="Rayx, acessórios, automotivo, kit, xenon, led, led's, reatores, reator, canceller, canbus, rádios, player, cd, mp5, mp7, dvd, 2din, câmera, ré, sensor, estacionamento, retrovisor, espelho, display, cabo, RCA">
   <meta name="theme-color" content="#000">
+  <meta property="og:url" content="https://www.rayx.com.br/produtos.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Confira a linha completa de acessórios! Rayx Comercial Ltda" />
+  <meta property="og:description" content="Qualidade para seu cliente, ideal para seus negócios!" />
+  <meta property="og:image" content="https://rayx.com.br/assets/news.png" />
   <!-- Bootstrap CSS -->
   <link rel="shortcut icon" href="assets/favicon-128x128.png" type="image/x-icon">
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -104,84 +109,38 @@
   </nav>
   <!--navbar-->
 
-  <!--home-->
-  <div class="container-fluid wallhome pt-5 pb-5" id="top">
-    <div class="container align-items-center h-100 pt-5 pb-5">
-      <h1 class="title">RAYX COMERCIAL</h1>
-      <div class="divisor"></div>
-      <!--typed by youself-->
-      <div>
-        <div id="typed-strings">
-          <p>XENON</p>
-          <p>LED'S</p>
-          <p>REATORES</p>
-          <p>SENSORES</p>
-          <p>CÂMERAS</p>
-          <p>FARÓIS DE LED</p>
-        </div>
-        <h4>AQUI VOCÊ ENCONTRA <span id="typed"></span>, E MUITO MAIS!</h4>
-      </div>
-      <script>
-        var type = new Typed('#typed', {
-          stringsElement: '#typed-strings',
-          typeSpeed: 80,
-          backSpeed: 30,
-          loop: Infinity,
-        });
-      </script>
-      <!--typed by youself-->
-      <small>QUALIDADE PARA SEU CLIENTE, IDEAL PARA SEUS NEGÓCIOS!</small>
-      <br><br>
-      <a class="btn btn-primary scroll" href="#novidades" role="button">&#128204 Novidades</a>
-      <!-- Botão para acionar modal -->
-      <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#modal1">
-        &#128276 Notificações
-      </button>
-
-      <!-- Modal -->
-      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content text-dark">
-            <div class="modal-header">
-              <h5 class="modal-title" id="TituloModalCentralizado">Notificações Rayx</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                <span aria-hidden="true">&times;</span>
-              </button>
+  <!--header video-->
+  <header id="top">
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="assets/video/background.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100 reveal">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="title">RAYX COMERCIAL</h1>
+          <!--typed by youself-->
+          <div>
+            <div id="typed-strings">
+              <p>XENON</p>
+              <p>LED'S</p>
+              <p>REATORES</p>
+              <p>SENSORES</p>
+              <p>CÂMERAS DE RÉ</p>
+              <p>FARÓIS DE LED</p>
             </div>
-            <div class="modal-body">
-              <h5>Feliz 2020! &#128525</h5>
-              <p>Chegando em janeiro!</p>
-              <ul>
-                <li>Xenon D</li>
-                <li>Led Prime</li>
-                <li>Led Turbo</li>
-                <li>Led Light <a href="produtos.html#ledlight">Leia Mais!</a></li>
-                <li>HUD Head Up Display</li>
-                <li>Sensor de 18mm e 22mm PRATA</li>
-              </ul>
-              <hr>
-              <h5>Rádio 1073</h5>
-              <p>&#128229 Clique aqui para fazer o download do software de atualização do rádio 1073! <a href="assets/download/atualizacao-d1073.rar" target="_blank">Download</a></p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
-            </div>
+            <h4>AQUI VOCÊ ENCONTRA <span id="typed"></span>, E MUITO MAIS!</h4>
           </div>
+          <!--typed by youself-->
+          <small>QUALIDADE PARA SEU CLIENTE, IDEAL PARA SEUS NEGÓCIOS!</small><br>
+          <div class="fb-like" data-href="https://www.rayx.com.br" data-width="100" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         </div>
       </div>
-      <!-- Botão para acionar modal -->
-      <br><br>
-      <div class="fb-like" data-href="https://www.rayx.com.br" data-width="100" data-layout="button_count"
-        data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
-        <hr>
-        <a href="faroisled.html">
-          <video width="100%" autoplay loop>
-            <source src="assets/video/farol-de-led.mp4" type="video/mp4">
-          </video>
-        </a>
     </div>
-  </div>
-  <!--home-->
+  </header>
+  <!--header video-->
+
+ 
 
   <!--cadastro-->
   <div class="container-fluid hero text-light pt-5 pb-5">
@@ -240,7 +199,7 @@
 
 
   <!--Novidades-->
-  <div class="container-fluid hero3 pt-5 pb-5" id="novidades">
+  <div class="container-fluid pt-5 pb-5" id="novidades">
     <div class="container pt-5 pb-5">
       <div class="row">
         <div class="col-lg-12 reveal">
@@ -252,7 +211,7 @@
           <p>Coloque seu nome e e-mail para que você possa entrar na nossa lista de assinantes e receber novidades sobre tudo o que rolar aqui na Rayx Comercial!</p>            
         </div>
 
-        <div class="col-lg-12 hero shadow rounded reveal p-2">
+        <div class="col-lg-12 reveal bg-light shadow rounded p-2">
           <!-- Begin Mailchimp Signup Form -->
           <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
           <div id="mc_embed_signup">
@@ -424,7 +383,6 @@
 
   <!--Evento Enan-->
   <div class="container-fluid pt-5 pb-5 text-center reveal">
-      <img src="assets/logo-rayx-effect.gif" width="50%" class="text-center" alt="">
     <div class="container pt-5 pb-5 text-left ">
       <h2 class="reveal">&#128198 EVENTOS RAYX COMERCIAL</h2>
       <hr>
@@ -768,25 +726,34 @@
 
   <script>
     ScrollReveal().reveal('.reveal', {
-      delay: 400,
-      distance: '80px',
+      delay: 200,
+      distance: '50px',
       easing: 'ease-out',
       origin: 'bottom',
-      reset: false,
+      reset: true,
       scale: 1
     });
     ScrollReveal().reveal('.reveal2', {
-      delay: 800,
-      distance: '80px',
+      delay: 500,
+      distance: '50px',
       easing: 'ease-out',
       origin: 'bottom',
-      reset: false,
+      reset: true,
       scale: 1
     });
   </script>
 
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v4.0"></script>
+  
+  <script>
+    var type = new Typed('#typed', {
+      stringsElement: '#typed-strings',
+      typeSpeed: 80,
+      backSpeed: 30,
+      loop: Infinity,
+    });
+  </script>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
