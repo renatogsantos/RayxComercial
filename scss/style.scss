@@ -150,6 +150,14 @@ ul {
   margin: 0 5px;
 }
 .hero{
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+.hero1{
   background: rgb(5,99,190);
   background: radial-gradient(circle, rgba(5,99,190,1) 0%, rgba(23,56,131,1) 50%, rgba(2,0,36,1) 100%);
   color: #fff;
@@ -165,39 +173,19 @@ ul {
 }
 .hero3{
   background: linear-gradient(rgba(0, 0, 0, .7)), url(../assets/wallhome.png);
-  height: auto;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #fff;
+  @extend .hero;
 }
 .hero4{
   background-image: url(../assets/img/004.png);
-  height: auto;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #fff;
+  @extend .hero;
 }
 .hero5{
   background-image: url(../assets/img/005.png);
-  height: auto;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #fff;
+  @extend .hero;
 }
 .hero6{
   background-image: url(../assets/img/006.png);
-  height: auto;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #fff;
+  @extend .hero;
 }
 .hero7 {
   background: #000000;  /* fallback for old browsers */
@@ -207,12 +195,7 @@ ul {
 }
 .hero8{
   background-image: url(../assets/img/007.png);
-  height: auto;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #fff;
+  @extend .hero;
 }
 .hero9 {
   background: rgb(18,45,88);

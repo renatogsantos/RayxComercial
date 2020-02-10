@@ -10955,7 +10955,16 @@ ul {
   margin: 0 5px;
 }
 
-.hero {
+.hero, .hero3, .hero4, .hero5, .hero6, .hero8 {
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.hero1 {
   background: #0563be;
   background: radial-gradient(circle, #0563be 0%, #173883 50%, #020024 100%);
   color: #fff;
@@ -10974,42 +10983,18 @@ ul {
 .hero3 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url(../assets/wallhome.png);
   background: linear-gradient(rgba(0, 0, 0, 0.7)), url(../assets/wallhome.png);
-  height: auto;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #fff;
 }
 
 .hero4 {
   background-image: url(../assets/img/004.png);
-  height: auto;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #fff;
 }
 
 .hero5 {
   background-image: url(../assets/img/005.png);
-  height: auto;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #fff;
 }
 
 .hero6 {
   background-image: url(../assets/img/006.png);
-  height: auto;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #fff;
 }
 
 .hero7 {
@@ -11024,12 +11009,6 @@ ul {
 
 .hero8 {
   background-image: url(../assets/img/007.png);
-  height: auto;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #fff;
 }
 
 .hero9 {
