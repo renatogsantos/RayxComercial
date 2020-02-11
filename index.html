@@ -140,7 +140,7 @@
           <!--typed by youself-->
           <small>QUALIDADE PARA SEU CLIENTE, IDEAL PARA SEUS NEGÓCIOS!</small><br>
           <div class="fb-like" data-href="https://www.rayx.com.br" data-width="100" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
-          <a class="scroll" href="#cadastro"><p class="reveal3" class="jello-horizontal"><img style="position:relative;top:50px;" width="40px" src="assets/icons/seta-down.svg" alt="arrow"></p></a>
+          <a class="scroll" href="#cadastro"><p class="jello-horizontal reveal3"><img style="position:relative;top:50px;" width="40px" src="assets/icons/seta-down.svg" alt="arrow"></p></a>
         </div>
       </div>
     </div>
@@ -201,7 +201,6 @@
     <a class="btn btn-outline-light reveal" href="contrato.html" role="button">Candidatar-se!</a>
   </div>
   <!--blocks-->
-
 
   <!--Novidades-->
   <div class="container-fluid pt-5 pb-5" id="novidades">
@@ -580,8 +579,21 @@
 
     gtag('config', 'UA-86299740-1');
   </script>
-  <!-- /Google Analytics -->
+  <!-- /Google Analytics -->  
 
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0"></script>
+  
+  <script>
+    var type = new Typed('#typed', {
+      stringsElement: '#typed-strings',
+      typeSpeed: 80,
+      backSpeed: 30,
+      loop: Infinity,
+    });
+  </script>
+
+  <!-- Optional JavaScript -->
   <script>
     ScrollReveal().reveal('.reveal', {
       delay: 200,
@@ -616,20 +628,6 @@
       scale: 1
     });
   </script>
-
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0"></script>
-  
-  <script>
-    var type = new Typed('#typed', {
-      stringsElement: '#typed-strings',
-      typeSpeed: 80,
-      backSpeed: 30,
-      loop: Infinity,
-    });
-  </script>
-
-  <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="js/jquery.js"></script>
   <script src="js/popper.js"></script>
