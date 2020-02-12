@@ -10770,10 +10770,6 @@ a.text-dark:hover, a.text-dark:focus {
   src: url(../assets/font/Poppins-Medium.ttf);
 }
 
-* {
-  cursor: url("../assets/cursor.svg"), pointer;
-}
-
 body {
   font-family: 'Poppins', sans-serif;
   background: #E0EAFC;
@@ -11190,7 +11186,8 @@ video {
   font-size: 18px;
 }
 
-#myTable th, #myTable td {
+#myTable th,
+#myTable td {
   text-align: left;
   padding: 12px;
 }
@@ -11199,7 +11196,8 @@ video {
   border-bottom: 1px solid #ddd;
 }
 
-#myTable tr.header, #myTable tr:hover {
+#myTable tr.header,
+#myTable tr:hover {
   background-color: #0b3372ab;
   -webkit-transition: .3s;
   transition: .3s;
@@ -11301,7 +11299,8 @@ video {
   margin: 100px auto;
 }
 
-.double-bounce1, .double-bounce2 {
+.double-bounce1,
+.double-bounce2 {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -11320,7 +11319,8 @@ video {
 }
 
 @-webkit-keyframes sk-bounce {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: scale(0);
   }
   50% {
@@ -11329,7 +11329,8 @@ video {
 }
 
 @keyframes sk-bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(0);
     -webkit-transform: scale(0);
   }
