@@ -1,5 +1,15 @@
+$(window).scroll(function() {
+	if ($(document).scrollTop() > 30) {
+		$('nav').addClass('hero9');
+	}      else {
+		$('nav').removeClass('hero9');
+	}
+});
+
+
+
 $(document).ready(function(){
-  $(".nav-toggler").click(function(){
-    $("nav").addClass(".bg-dark")
+  $("button").click(function(){
+    $("nav").addClass("hero9")
   })
 })

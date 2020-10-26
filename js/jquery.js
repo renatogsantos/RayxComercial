@@ -10382,15 +10382,6 @@ jQuery(document).ready(function($) {
 	});
 });
 
-$(window).scroll(function() {
-	if ($(document).scrollTop() > 50) {
-		$('nav').addClass('shrink');
-	}      else {
-		$('nav').removeClass('shrink');
-	}
-});
-
-
 // Função para pesquisa na página de aplicação geral
 
 function myFunction() {
