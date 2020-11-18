@@ -1,8 +1,8 @@
 $(window).scroll(function() {
 	if ($(document).scrollTop() > 30) {
-		$('nav').addClass('hero9');
+		$('nav').addClass('hero7');
 	}      else {
-		$('nav').removeClass('hero9');
+		$('nav').removeClass('hero7');
 	}
 });
 
@@ -10,6 +10,6 @@ $(window).scroll(function() {
 
 $(document).ready(function(){
   $("button").click(function(){
-    $("nav").addClass("hero9")
+    $("nav").addClass("hero7")
   })
 })

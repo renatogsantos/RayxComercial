@@ -71,13 +71,12 @@ li {
   content: ' ';
   width: 0%;
   height: 3px;
-  background: rgb(23, 56, 131);
-  background: linear-gradient(45deg, rgba(23, 56, 131, 1) 0%, rgba(0, 130, 255, 1) 100%);
+  background: #ffee00;
   position: absolute;
   top: 0%;
   left: 50%;
   border-radius: 10px;
-  transition: all 600ms ease;
+  transition: all 400ms ease;
 }
 
 .hover-border:hover:after {
@@ -239,6 +238,8 @@ ul {
   background: linear-gradient(to left, #172435, #000000);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .hero8 {
@@ -258,7 +259,7 @@ ul {
 }
 
 .wall {
-  background-image: url(../assets/wallpaper.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,5,5)),url(../assets/wall-mercedes.png);
   height: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
