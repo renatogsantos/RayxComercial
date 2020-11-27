@@ -152,25 +152,29 @@ ul {
 .divisor {
   margin: 15px 0;
   height: 6px;
-  width: 40%;
+  width: 10%;
   background: rgb(23, 56, 131);
   background: linear-gradient(45deg, rgba(23, 56, 131, 1) 0%, rgba(0, 130, 255, 1) 100%);
   border-radius: 15px;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.100);
+  position: relative;
+  right: 10px;
 }
 
 .divisor:hover {
-  width: 80%;
+  width: 50%;
   transition: all 600ms ease;
 }
 
 .divisor2 {
   margin: 15px 0;
   height: 6px;
-  width: 40%;
+  width: 10%;
   background-color: yellow;
   border-radius: 15px;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.100);
+  position: relative;
+  right: 10px;
 }
 
 .divisor2:hover {
@@ -269,7 +273,7 @@ ul {
 }
 
 .wallhome {
-  background: linear-gradient(rgba(0, 0, 0, .5)), url(../assets/wallhome.png);
+  background: linear-gradient(rgba(0, 0, 0, .5)), url(../assets/wallhome2.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
