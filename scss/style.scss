@@ -197,10 +197,15 @@ ul {
   background-size: cover;
   color: #fff;
 }
+.hero0{
+  background: rgb(94,0,0);
+  background: linear-gradient(45deg, rgba(94,0,0,1) 0%, rgba(255,0,0,1) 50%, rgba(255,70,0,1) 100%);
+  color: #fff;
+}
 
 .hero1 {
-  background: rgb(5, 99, 190);
-  background: radial-gradient(circle, rgba(5, 99, 190, 1) 0%, rgba(23, 56, 131, 1) 50%, rgba(2, 0, 36, 1) 100%);
+  background: rgb(0,11,40);
+  background: linear-gradient(45deg, rgba(0,11,40,1) 0%, rgba(0,108,255,1) 100%);
   color: #fff;
 }
 

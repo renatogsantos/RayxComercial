@@ -10091,9 +10091,15 @@ ul {
   color: #fff;
 }
 
+.hero0 {
+  background: #5e0000;
+  background: linear-gradient(45deg, #5e0000 0%, red 50%, #ff4600 100%);
+  color: #fff;
+}
+
 .hero1 {
-  background: #0563be;
-  background: radial-gradient(circle, #0563be 0%, #173883 50%, #020024 100%);
+  background: #000b28;
+  background: linear-gradient(45deg, #000b28 0%, #006cff 100%);
   color: #fff;
 }
 
