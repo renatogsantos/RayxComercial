@@ -9995,6 +9995,7 @@ li {
 }
 
 .menu-rayx {
+  font-size: 0.8em;
   font-weight: 500;
 }
 
@@ -10030,7 +10031,7 @@ li {
   font-size: 0.8em;
 }
 
-ul {
+.descricao ul {
   list-style: none;
   font-size: 0.8em;
 }
