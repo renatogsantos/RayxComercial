@@ -11236,34 +11236,26 @@ video {
   border: 1px solid #ddd;
   margin-bottom: 12px;
   border-radius: 3px;
-  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 #myTable {
   border-collapse: collapse;
   width: 100%;
-  border: 1px solid #ddd;
-  font-size: 18px;
 }
 
-#myTable th,
-#myTable td {
-  text-align: left;
-  padding: 12px;
+#myTable th, #myTable td {
+  text-align: center;
+  padding: 10px 0;
+  vertical-align: baseline;
 }
 
-#myTable tr {
-  border-bottom: 1px solid #ddd;
-}
-
-#myTable tr.header,
-#myTable tr:hover {
-  background-color: #0b3372ab;
-  -webkit-transition: .3s;
-  transition: .3s;
-  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+#myTable tr.header, #myTable tr:hover {
+  background-color: #00478d87;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .arrow {

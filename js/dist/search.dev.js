@@ -1,25 +1,23 @@
 "use strict";
 
-$(document).ready(function () {
-  /*
-   Ao pressionar uma tecla no campo de busca
-   OBS:Se desejar pode colocar um botão de ação e mudar para onclick neste botão
-  */
-  $('#buscar').on('keyup', function () {
-    //pegar o valor do input e transformar em minúscula
-    var texto = $('#buscar').val().toLowerCase(); //seleciona todos os elementos a dentro da section
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
 
-    var a = $(this).parents('section').find('h1');
-    $.each(a, function () {
-      //percorre os elementos
-      //texto do elemento também em letra minúscula
-      var aTexto = $(this).text().toLowerCase(); //se encontrar o valor procurado no texto do elemento
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[2];
 
-      if (aTexto.indexOf(texto) > -1) {
-        $(this).show(); //exibe
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
       } else {
-        $(this).hide(); //oculta
+        tr[i].style.display = "none";
       }
-    });
-  });
-});
+    }
+  }
+}
