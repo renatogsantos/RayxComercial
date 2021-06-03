@@ -10318,7 +10318,7 @@ video {
 
 #myTable th, #myTable td {
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 5px;
   vertical-align: baseline;
 }
 
