@@ -10612,3 +10612,16 @@ header .overlay {
     transform: translateY(-20px);
   }
 }
+.ads2 {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .ads {
+    display: none;
+  }
+
+  .ads2 {
+    display: block;
+  }
+}

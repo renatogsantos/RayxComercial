@@ -2,7 +2,7 @@ ScrollReveal({
   duration: 500
 });
 ScrollReveal({
-  reset: true
+  reset: false
 });
 ScrollReveal().reveal('.show-1', {
   deley: 300
