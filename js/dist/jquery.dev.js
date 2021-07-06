@@ -9121,17 +9121,6 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
 
   return jQuery;
 });
-/*Página com slow scroll*/
-
-
-jQuery(document).ready(function ($) {
-  $(".scroll").click(function (event) {
-    event.preventDefault();
-    $('html,body').animate({
-      scrollTop: $(this.hash).offset().top
-    }, 1500);
-  });
-});
 
 function showTime() {
   var date = new Date();
