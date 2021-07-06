@@ -10808,6 +10808,10 @@ a.text-dark:hover, a.text-dark:focus {
   src: url(../assets/font/Poppins-Medium.ttf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   background: #E0EAFC;
