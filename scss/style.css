@@ -11049,13 +11049,18 @@ section.products a {
   background-image: url(../assets/img/006.png);
 }
 
+.wave {
+  background-image: url(../assets/wave.png);
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .hero7 {
-  background: #000000;
-  /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, right top, left top, from(#172435), to(#000000));
-  background: linear-gradient(to left, #172435, #000000);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #314a6a;
+  background: radial-gradient(circle, #314a6a 0%, black 100%);
   color: white;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
