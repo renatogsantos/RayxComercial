@@ -10638,7 +10638,7 @@ header .overlay {
 .blog-list {
   text-decoration: none;
   color: #fff;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .blog-list:hover {

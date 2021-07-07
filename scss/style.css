@@ -11615,8 +11615,8 @@ header .overlay {
 .blog-list {
   text-decoration: none;
   color: #fff;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .blog-list:hover {
