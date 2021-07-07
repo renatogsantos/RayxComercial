@@ -11063,8 +11063,9 @@ section.products a {
 }
 
 .hero7 {
-  background: #314a6a;
-  background: radial-gradient(circle, #314a6a 0%, black 100%);
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, from(black), to(#002759));
+  background: linear-gradient(90deg, black 0%, #002759 100%);
   color: white;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
@@ -11456,7 +11457,7 @@ header .overlay {
   }
 }
 
-.jello-horizontal {
+.jello-horizontal:hover {
   -webkit-animation: jello-horizontal 1s infinite both;
           animation: jello-horizontal 1s infinite both;
 }
@@ -11608,5 +11609,20 @@ header .overlay {
   .ads2 {
     display: block;
   }
+}
+
+.blog-list {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.blog-list:hover {
+  text-decoration: none;
+  color: #fff000;
+  margin: 0 0 0 15px;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 /*# sourceMappingURL=style.css.map */

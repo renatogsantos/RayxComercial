@@ -258,8 +258,8 @@ section.products a {
 }
 
 .hero7 {
-  background: rgb(49,74,106);
-  background: radial-gradient(circle, rgba(49,74,106,1) 0%, rgba(0,0,0,1) 100%);
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,39,89,1) 100%);
   color: white;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
@@ -663,7 +663,7 @@ header .overlay {
   }
 }
 
-.jello-horizontal {
+.jello-horizontal:hover {
   animation: jello-horizontal 1s infinite both
 }
 
@@ -768,4 +768,18 @@ header .overlay {
   .ads2{
     display: block;
   }
+}
+
+//blog style
+
+.blog-list {
+  text-decoration: none;
+  color: #fff;
+  transition: .5s;
+}
+.blog-list:hover {
+  text-decoration: none;
+  color: #fff000;
+  margin:0 0 0 15px;
+  transition: .5s;
 }
