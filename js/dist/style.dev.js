@@ -23,4 +23,10 @@ function loginAcess() {
   } else {
     window.location.href = "https://www.rayx.com.br";
   }
+} //remove a tela de carregamento
+
+
+function myFunction() {
+  var load = document.getElementById("preloader");
+  load.remove();
 }

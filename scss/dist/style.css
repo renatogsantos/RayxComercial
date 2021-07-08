@@ -10394,8 +10394,8 @@ video {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #093461;
-  background: radial-gradient(circle, #093461 0%, #020024 100%);
+  background: #000f35;
+  background: radial-gradient(circle, #000f35 0%, black 100%);
   z-index: 5000;
   /* z-index para jogar para frente e sobrepor tudo */
 }
