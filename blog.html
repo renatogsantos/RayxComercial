@@ -37,6 +37,20 @@
 
 <body class="hero7" onload="loginAcess()">
 
+  <!--PRELOADER
+  <div id="preloader">
+    <div class="container text-center pb-3 text-light fixed-bottom">
+      <img src="assets/logo_rayx.svg" width="150px" alt="load">
+    </div>
+    <div class="inner">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>
+  </div>
+  PRELOADER-->
+
   <div id="top" class="d-flex justify-content-center align-items-center hero7 border-bottom">
     <div class="container pt-5 pb-5">
       <div class="row p-3">
@@ -599,20 +613,11 @@
 
   
   <!-- Optional JavaScript-->
-  <script>
-    function loginAcess() {
-      var login = prompt("Por favor digite a senha de acesso: (Para acessar a página de introdução aos produtos Rayx Brasil, solicite o acesso com um de nossos colaboradores na página de contatos Rayx.com.br)")
-      if (login == 202100) {
-        alert("Senha correta!")
-      } else {
-        window.location.href = "https://www.rayx.com.br";
-      }
-    }
-  </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="js/jquery.js"></script>
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="js/style.js"></script>
 </body>
 
 </html>

@@ -9147,13 +9147,4 @@ function showTime() {
   setTimeout(showTime, 1000);
 }
 
-showTime(); //preloader
-//<![CDATA[
-
-$(window).on('load', function () {
-  $('#preloader .inner').fadeOut(1000);
-  $('#preloader').delay(1000).fadeOut('slow');
-  $('body').delay(1000).css({
-    'overflow': 'visible'
-  });
-}); //]]>
+showTime();
