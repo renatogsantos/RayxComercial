@@ -11625,4 +11625,15 @@ header .overlay {
   -webkit-transition: .5s;
   transition: .5s;
 }
+
+iframe {
+  width: 100%;
+  height: 420px;
+}
+
+@media only screen and (max-width: 600px) {
+  iframe {
+    height: 200px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
