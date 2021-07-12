@@ -18,7 +18,7 @@ $(document).ready(function () {
 function loginAcess() {
   var login = prompt("Por favor digite a senha de acesso: (Para acessar a página de introdução aos produtos Rayx Brasil, solicite o acesso com um de nossos colaboradores na página de contatos Rayx.com.br)");
 
-  if (login == 202100) {
+  if (login == 32272538) {
     alert("Senha correta!");
   } else {
     window.location.href = "https://www.rayx.com.br";
