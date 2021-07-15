@@ -10659,3 +10659,7 @@ iframe {
     height: 200px;
   }
 }
+.indisponivel {
+  filter: grayscale(100%);
+  opacity: 50%;
+}

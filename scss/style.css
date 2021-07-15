@@ -11637,4 +11637,10 @@ iframe {
     height: 200px;
   }
 }
+
+.indisponivel {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  opacity: 50%;
+}
 /*# sourceMappingURL=style.css.map */
