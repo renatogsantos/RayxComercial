@@ -800,3 +800,80 @@ iframe {
   filter: grayscale(100%);
   opacity: 50%;
 }
+
+
+//página de campanha
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+.campanha-title-1{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 8vh;
+  font-weight: 800;
+}
+.campanha-title-2{
+  font-size: 4vh;
+  font-weight: 800;
+}
+.awesome-span{
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #0077ee;
+  font-weight: 800;
+}
+.face-place{
+  position: relative;
+}
+.face{
+  position:absolute;
+  bottom: -48px;
+}
+.awesome-btn{
+  text-decoration: none;
+  color: #fff000;
+  font-weight: 700;
+  padding: 25px 50px;
+  border: 3px solid #fff000;
+  border-radius:50px;
+  transition: .5s;
+  margin: 0 auto;
+}
+.awesome-btn:hover{
+  text-decoration: none;
+  color: #000;
+  background-color: #fff000;
+  margin-bottom: 10px;
+  box-shadow:0px 0px 50px #ffee0090;
+  transition: .5s;
+}
+
+.awesome-btn-2{
+  text-decoration: none;
+  color: #128C7E;
+  font-weight: 700;
+  padding: 25px 50px;
+  border: 3px solid #128C7E;
+  border-radius:50px;
+  transition: .5s;
+  margin: 0 auto;
+}
+.awesome-btn-2:hover{
+  text-decoration: none;
+  color: #fff;
+  background-color: #128C7E;
+  margin-bottom: 10px;
+  box-shadow:0px 0px 50px #128C7E90;
+  transition: .5s;
+}
+
+@media only screen and (max-width: 767px){ //some value
+  .face{
+    display: none;
+  }
+  .campanha-title-1{
+    font-size: 7vh;
+    font-weight: 800;
+  }
+  .campanha-title-2{
+    font-size: 3vh;
+    font-weight: 800;
+  }
+}
