@@ -10186,6 +10186,15 @@ section.products a {
   color: white;
 }
 
+.bg-cadastro {
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url(../assets/bg-cadastro.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
 .topbar {
   background-color: #383838;
   color: white;
