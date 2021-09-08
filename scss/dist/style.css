@@ -10687,6 +10687,7 @@ iframe {
 .face {
   position: absolute;
   bottom: -48px;
+  left: 0;
 }
 
 .awesome-btn {
