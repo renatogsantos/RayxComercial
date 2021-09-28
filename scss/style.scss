@@ -874,3 +874,34 @@ iframe {
     font-weight: 800;
   }
 }
+
+//linktree
+
+.celular {
+  width: 620px;
+}
+
+@media screen and (max-width: 600px) {
+  .celular {
+    width: 100%;
+  }
+}
+
+.linktree-button-1{
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.500);
+  background: rgb(0,119,238);
+  background: radial-gradient(circle, rgba(0,119,238,1) 0%, rgba(8,24,68,1) 100%);
+}
+
+.linktree-button-2{
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.500);
+  background: rgb(255,240,0);
+}
