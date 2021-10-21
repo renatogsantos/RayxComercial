@@ -11,3 +11,5 @@ Estamos à disposição para esclarecer eventuais dúvidas e aguardamos o seu co
 Atenciosamente,<br>
 
 RAYX BRASIL Ltda.</p>
+
+<small>Criado e desenvolvido por Renato G Santos <a href="https://renatogsantos.github.io">renatogsantos.github.io</a></small>
