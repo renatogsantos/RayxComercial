@@ -13,6 +13,8 @@ $(document).ready(function(){
     $("nav").addClass("hero7")
   })
 })
+
+
 //pede senha para acessar a página de blog
 function loginAcess() {
 	var login = prompt("Por favor digite a senha de acesso: (Para acessar a página de introdução aos produtos Rayx Brasil, solicite o acesso com um de nossos colaboradores na página de contatos Rayx.com.br)")
