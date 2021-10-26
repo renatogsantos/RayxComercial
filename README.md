@@ -12,4 +12,4 @@ Atenciosamente,<br>
 
 RAYX BRASIL Ltda.</p>
 
-<small>Criado e desenvolvido por Renato G Santos <a href="https://renatogsantos.github.io">renatogsantos.github.io</a></small>
+<small>Desenvolvido por Renato G Santos <a href="https://renatogsantos.github.io">renatogsantos.github.io</a></small>
