@@ -1,7 +1,7 @@
 
 //transforma a cor da barra de navegação navbar quando scroll
 $(window).scroll(function() {
-	if ($(document).scrollTop() > 30) {
+	if ($(document).scrollTop() > 1400) {
 		$('nav').addClass('hero7');
 	}      else {
 		$('nav').removeClass('hero7');
