@@ -93,36 +93,34 @@
   </nav>
   <!--navbar-->
 
-  <div class="container-fluid pt-5 pb-5 hero7" id="top">
+  <div class="container-fluid pt-5 pb-5" id="top">
     <div class="container pt-5">
       <h1 class="title">APLICAÇÃO GERAL</h1>
-      <div class="divisor2"></div>
+      <div class="divisor"></div>
       <p>Use a tabela de aplicação geral para saber qual modelo de led ou lâmpada será necessário para a instalação correta em seu veículo!</p>
       <small>Faça o download da tabela de aplicação geral para encontrar modelos mais específicos!</small><br>
       <br>
       <a name="Produtos" id="produtos" class="btn btn-primary" href="produtos.html" role="button" >Produtos</a>
-      <a name="Tabela de aplicação" id="tabelaaplicacao" title="DOWNLOAD - Tabela de Aplicação Geral" class="btn btn-outline-light" href="assets/download/tabela_de_aplicacao_geral.rar" target="_blank" role="button"><i class="fa fa-download" aria-hidden="true"></i> Tabela de Aplicação</a>
+      <a name="Tabela de aplicação" id="tabelaaplicacao" title="DOWNLOAD - Tabela de Aplicação Geral" class="btn btn-outline-dark" href="assets/download/tabela_de_aplicacao_geral.rar" target="_blank" role="button"><i class="fa fa-download" aria-hidden="true"></i> Tabela de Aplicação</a>
       <hr>
       <!--alerta de aviso-->
-      <div class="alert alert-danger fade show" role="alert">
-          <strong>IMPORTANTE:</strong> Esta tabela está em manutenção! Caso não encontre o modelo do seu veículo ou o encaixe de lâmpada desejada, solicite as informações através da página de contatos. Obrigado!
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <p><strong>IMPORTANTE:</strong> Esta tabela está em manutenção! Caso não encontre o modelo do seu veículo ou o encaixe de lâmpada desejada, solicite as informações através da página de contatos. Obrigado!</p>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
     <!--alerta de aviso-->
     </div>
   </div>
 
   <!--aplicação geral-->
-  <div class="container-fluid hero6 pt-5 pb-5">
+  <div class="container-fluid hero7 pt-5 pb-5">
     <div class="container">
       <h3>APLICAÇÃO GERAL - PARA LÂMPADAS E LED'S EM GERAL</h3><br>
       <input style="position:-webkit-sticky;position:sticky;top:80px;" type="text" id="myInput" onkeyup="myFunction()" placeholder="Qual o modelo do seu veículo?" title="Descreva o nome corretamente!">
       <div class="table-responsive border">
         <table class="table text-light" id="myTable">
           <!--CHEVROLET-->
-          <tr id="header" class="hero7">
+          <tr id="header" class="bg-dark">
             <th scope="col">VEÍCULO</th>
             <th scope="col">ANO</th>
             <th scope="col">FAROL ALTO</th>
