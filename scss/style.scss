@@ -56,6 +56,7 @@ a {
 
 li {
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .title {
@@ -274,7 +275,7 @@ section.products a {
 }
 
 .wall {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,5,5)),url(../assets/wallhome.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,5,5)),url(../assets/wallhome1.png);
   height: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;

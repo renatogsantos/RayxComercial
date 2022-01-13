@@ -12015,6 +12015,7 @@ a {
 
 li {
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .title {
@@ -12236,8 +12237,8 @@ section.products a {
 }
 
 .wall {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(#000005)), url(../assets/wallhome.png);
-  background: linear-gradient(rgba(0, 0, 0, 0.2), #000005), url(../assets/wallhome.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(#000005)), url(../assets/wallhome1.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), #000005), url(../assets/wallhome1.png);
   height: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
