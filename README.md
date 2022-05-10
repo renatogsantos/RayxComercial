@@ -13,3 +13,6 @@ Atenciosamente,<br>
 RAYX BRASIL Ltda.</p>
 
 <small>Desenvolvido por Renato G Santos <a href="https://renatogsantos.github.io">renatogsantos.github.io</a></small>
+
+
+![screencapture-rayx-br-2022-05-10-18_07_55](https://user-images.githubusercontent.com/39703265/167722187-2477f928-9367-4e3b-a49c-c36c6cdc08c0.png)
