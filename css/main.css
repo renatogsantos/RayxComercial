@@ -1,3 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .blur {
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(173, 216, 230, 0.2);
+}
+
+.mail-link {
+  text-decoration: none;
+  color: white;
+}
+
+.mail-link:hover {
+  color: lightskyblue;
+}
+
+.pt-5 ul {
+  list-style: none;
+}
+
+* {
+font-family: 'Poppins', sans-serif;
+}
+
+.btn-cadastro-header {
+  text-decoration: none;
+  color: white;
+  background-color: #0078F2;
+  padding: 10px 10px;
+  font-size: 14px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.btn-cadastro-header:hover {
+  color: white;
+  filter: brightness(90%);
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item .nav-link {
+  border-radius: 10px;
+}
+
+@media (max-width: 990px) {
+
+  .navbar-nav .nav-item .nav-link {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50em;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 15px;
+  }
 }
