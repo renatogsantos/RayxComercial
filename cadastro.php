@@ -2,10 +2,10 @@
 
 # alterar a variavel abaixo colocando o seu email
 
-$to = "rayx.vendas@gmail.com";
+$to = "RAYX.vendas@gmail.com";
 $subject = "CADASTRO - RAYX COMERCIAL.";
 $message = 'CADASTRO';
-$headers = 'From: rayx.vendas@gmail.com' . "\r\n" .
+$headers = 'From: RAYX.vendas@gmail.com' . "\r\n" .
     'Reply-To: webmaster@example.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
