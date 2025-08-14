@@ -1,0 +1,11 @@
+{
+  "name": "rayxcomercial",
+  "version": "1.0.1",
+  "description": "<h1>Site RAYX Comercial</h1> <p>Somos uma empresa do ramo de acessórios automotivos. Temos os melhores vendedores da área especializados e comprometidos com o serviço. A nossa empresa está preparada para atender clientes de médio e grande porte, oferecendo sempre uma solução inteligente e prática para o atendimento.<br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
